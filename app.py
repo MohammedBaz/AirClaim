@@ -95,14 +95,14 @@ with st.sidebar.expander('Please select Parameter'):
     
 
     
-    results=egetImageCollectionbyCountry(CountryName='Saudi Arabia',
-                                         ImageCollectionName=ImageCollectionName,
-                                         BandName=ListofBands,
-                                         StartDate=EndDate- timedelta(days=int(NumberofDays)),
-                                         EndDate=EndDate,
-                                         ColorPlatte=ColorPlatte,
-                                         CorrectionFactor=CorrectionFactor
-                                        )
+    #results=egetImageCollectionbyCountry(CountryName='Saudi Arabia',
+    #                                     ImageCollectionName=ImageCollectionName,
+    #                                     BandName=ListofBands,
+    #                                     StartDate=EndDate- timedelta(days=int(NumberofDays)),
+    #                                     EndDate=EndDate,
+    #                                     ColorPlatte=ColorPlatte,
+    #                                     CorrectionFactor=CorrectionFactor
+    #                                    )
     
     with MainPageDescription:
       #st.image(results[1],use_column_width=True,caption=' Image of '+ InputedBand+ ' for the Interval from '+ str(EndDate- timedelta(days=int(NumberofDays)))+' until '+str(EndDate))
