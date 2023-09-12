@@ -33,7 +33,7 @@ from GetImageCollections import egetImageCollectionbyCountry
 #############################################################Read the datasets#################################################################
 #BandInformation=pandas.read_csv('BandInformation.csv',delimiter=',',parse_dates=['StartDate', 'EndDate'])
 BandInformation=pandas.read_csv('BandInformation.csv',delimiter=',',parse_dates=['StartDate', 'EndDate'],encoding='ISO-8859–1')
-Provincesdf=pandas.read_csv('Provinces.csv',delimiter=';')
+#Provincesdf=pandas.read_csv('Provinces.csv',delimiter=';')
 
 
 def plotIndictors(bandName,df):
