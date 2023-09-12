@@ -1,0 +1,6 @@
+earthengine-api
+pandas
+plotly
+streamlit
+Pillow
+matplotlib
