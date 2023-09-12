@@ -63,15 +63,15 @@ SubMainPageDescription=st.empty() # subcanvas where the inputs/outputs are handl
 Sub2MainPageDescription=st.empty() # same as above
 Sub3MainPageDescription=st.empty() # same as above
 #####################ArabicDescription=Description
-lng = st.sidebar.checkbox('Arabic')
-if (lng):
-  st.sidebar.write("يستخدم هذا التطبيق مجموعه من البيانات المتوفرة من الاقمار الصناعية لتوفيرمراقبة لعدد من مؤشرات المناخ وجودة الهواء والغطاء الأرضي في المملكة العربية السعودية ، الإصدار التجريبي")
-  st.sidebar.write("تم  تطويره كمساهمة فى المبادرة السعودية الخضراء ، ستكون تعليقاتكم واقتراحاتكم محل تقدير كبير يمكنكم التواصل عبر")
-  st.sidebar.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
-else:
-  st.sidebar.write("This app uses some satellite imagery datasets to monitor several climate, Air Quality and Land Cover's parameters of KSA, beta version.")
-  st.sidebar.write("Developed as a support for Saudi Green Initiative, your comments and suggestions would be greatly appreciated at:")
-  st.sidebar.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
+#lng = st.sidebar.checkbox('Arabic')
+#if (lng):
+#  st.sidebar.write("يستخدم هذا التطبيق مجموعه من البيانات المتوفرة من الاقمار الصناعية لتوفيرمراقبة لعدد من مؤشرات المناخ وجودة الهواء والغطاء الأرضي في المملكة العربية السعودية ، الإصدار التجريبي")
+#  st.sidebar.write("تم  تطويره كمساهمة فى المبادرة السعودية الخضراء ، ستكون تعليقاتكم واقتراحاتكم محل تقدير كبير يمكنكم التواصل عبر")
+#  st.sidebar.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
+#else:
+st.sidebar.write("This app uses some satellite imagery to monitor various parameters of climate, air quality and land cover in Saudi Arabia.")
+st.sidebar.write("This app was created for research purposes only and we disclaim any responsibility for misuse, your comments and suggestions would be greatly appreciated at:")
+st.sidebar.markdown('<a href="mailto:mdbaz01@gamil.com">mdbaz01@gamil.com</a>', unsafe_allow_html=True)
 
 with st.sidebar.expander('Please select Parameter'):
   InputedBand= st.radio('',BandInformation['Description'])  
