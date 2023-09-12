@@ -110,9 +110,9 @@ with st.sidebar.expander('Please select Parameter'):
       image = Image.open(ListofBands+'.gif')
       st.image(image,use_column_width=True,caption=' Image of '+ InputedBand+ ' for seelcted Interval ')
    
-    with SubMainPageDescription:
-      plotIndictors(ListofBands,results[0])
-    with Sub2MainPageDescription:
-      st.write(results[0])
-    with Sub3MainPageDescription:
-      st.write("for more information about the dataset, please sse"+Comments)
+    #with SubMainPageDescription:
+    #  plotIndictors(ListofBands,results[0])
+    #with Sub2MainPageDescription:
+    #  st.write(results[0])
+    #with Sub3MainPageDescription:
+    #  st.write("for more information about the dataset, please sse"+Comments)
